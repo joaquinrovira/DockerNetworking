@@ -24,10 +24,10 @@ Cada host deberá conocer la IP pública del otro (no puede haber un NAT entre l
 
 El mecanismo implementado en este ejercicio es el siguiente:
 1. Creamos el bridge que emula Internet en la conexion entre hosts.
-2. Creamos dos hosts virtuales y los conectamos de manera igual al [ejercicio 2](../2/README.md).
+2. Creamos dos hosts virtuales y los conectamos de manera igual al [ejercicio 2](../2).
 3. Para cada host:
     1. Lanzamos 2 contenedores.
-    2. Los conectamos de manera igual al [ejercicio 2](../2/README.md).
+    2. Los conectamos de manera igual al [ejercicio 2](../2).
     3. Enrutamos los paquetes a las red locales de del otro host via la IP publica del otro host.
     4. Para cada contenedor:
         1. Enrutamos los paquetes a las todas las redes locales via la IP publica del bridge local.
@@ -69,4 +69,4 @@ Con el fin de proporcionar una generalizacion de este esquema, se proporciona `s
 Además, genera dos scripts `network_setup.sh` y `network_delete.sh`. El primero, hace el setup de la red por si queremos realizar otras pruebas y el segundo elimina la red generada.
 
 
-[Volver](../README.md)
+[Volver](..)
