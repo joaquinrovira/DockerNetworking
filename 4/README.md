@@ -63,6 +63,8 @@ El bridge pretende emular la interconexión via Internet entre los hosts virtual
     |                                                                         |
     +-------------------------------------------------------------------------+
 
+El script que realiza este setup se puede analizar en detalle [aquí](script.py).
+
 #### Generalizacion
 Con el fin de proporcionar una generalizacion de este esquema, se proporciona `script.py`, un script de python3 que ejecuta los comandos que ponen en marcha este setup. En función de dos atributos `num_hosts` y `num_procs_per_hosts` que aumentan el número de hosts en la red y el número de contenedores por host. 
 
