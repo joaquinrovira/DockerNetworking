@@ -27,7 +27,7 @@ Para todas las tareas usaremos una imagen docker llamada ```ubuntu-ping``` que p
 Lanzamiento de contenedores en un mismo host que puedan cominar entre sí mediante protocolos IP.
 
 ## [Ejercicio 2](2)
-Lanzamiento de contenedores en un mismo host capaces de comicarse con el host. 
+Lanzamiento de contenedores en un mismo host capaces de comunicarse con el host. 
 Además, el host también debe poder comunicarse con los contenedores.
 
 

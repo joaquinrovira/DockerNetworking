@@ -1,6 +1,6 @@
 ## Ejercicio 2
 
-### Lanzamiento de contenedores en un mismo host capaces de comicarse con el host. 
+### Lanzamiento de contenedores en un mismo host capaces de comunicarse con el host. 
 
 El mecanismo implementado en este ejercicio es el siguiente:
 1.  Lanzamos 2 contenedores.
@@ -31,6 +31,8 @@ En este caso en concreto tendremos dos contenedores el la subred 192.168.1.0/29 
     |                                |
     |                                |
     +--------------------------------+
+
+El script que realiza este setup se puede analizar en detalle [aquí](script.sh).
 
 ##### Generalización
 

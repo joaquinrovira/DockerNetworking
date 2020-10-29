@@ -32,6 +32,8 @@ En este caso en concreto tendremos dos contenedores el la subred 192.168.1.0/30 
     |                                               | 
     +-----------------------------------------------+ 
 
+El script que realiza este setup se puede analizar en detalle [aquí](script.sh).
+
 ##### Generalización
 
 La generalización de este set-up implicaría el uso de una interfaz virtual de tipo *bridge* con el fin de reducir el número de conexiones entre hosts de O(n²) a O(n). La ímplementación la veremos en la resolución del siguiente ejercicio.
