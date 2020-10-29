@@ -6,14 +6,16 @@ De esta manera limitaremos la comunicación entre los contenedores que permitamo
 
 *__Importante__: es necesario tener instalados
 [docker](https://docs.docker.com/get-docker/),
-[iproute2](https://wiki.linuxfoundation.org/networking/iproute2) e 
-[iptables](http://www.netfilter.org/projects/iptables/index.html)
+[iproute2](https://wiki.linuxfoundation.org/networking/iproute2), 
+[iptables](http://www.netfilter.org/projects/iptables/index.html), 
+[python3](https://www.python.org/)
 .*
 
 ``` bash
 $ sudo apt install docker-ce docker-ce-cli containerd.io
 $ sudo apt install iproute2
 $ sudo apt install iptables
+$ sudo apt install python3
 ```
 
 Lanzaremos contendores docker que inicialmente no contarán con red. 
