@@ -68,5 +68,4 @@ Con el fin de proporcionar una generalizacion de este esquema, se proporciona `s
 
 Además, genera dos scripts `network_setup.sh` y `network_delete.sh`. El primero, hace el setup de la red por si queremos realizar otras pruebas y el segundo elimina la red generada.
 
-
-[Volver](..)
+[Volver](../../..)

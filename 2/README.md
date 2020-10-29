@@ -36,7 +36,6 @@ En este caso en concreto tendremos dos contenedores el la subred 192.168.1.0/29 
 
 La generalización de este ejecicio es muy sencilla. Primero, deberíamos elegir un subred local con más capacidad de direccionamiento que la 192.168.1.0/29. A partir de ahí, por cada contenedor que queramos conectar, tendremos que enlazar el NS del mismo al bridge.
 
-
-[Volver](..)
+[Volver](../../..)
 
 [Siguiente ejercicio](../3)
